@@ -1,0 +1,51 @@
+.messages-wrapper {
+    background-color:rgba(100,0,100,.1) !important;
+}
+.channel-textarea {
+    margin:0px;
+    position:relative;
+    background-color:rgba(100,0,100,.3);
+}
+.title-wrap {
+    background-color:rgba(100,0,100,.3) !important;
+}
+.guild-header header {
+    background-color:rgb(100,50,125) !important;
+}
+.guild-channels ul .channel-text.selected {
+    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,0));
+}
+.guild-channels ul .channel-text:hover {
+    background:rgba(100,0,100,.5);
+}
+.scroller.guild-channels {
+    background-color:rgba(100,0,100,.3);
+}
+#voice-connection {
+    background-color:rgba(100,0,100,.3) !important;
+    border:0px;
+    padding-bottom:0px;
+}
+.btn-group {
+    background:rgb(10,10,10) !important;
+}
+.button.btn.btn-info {
+    background-color:red !important
+}
+.account {
+    background-color:rgba(100,0,100,.3) !important;
+    border:0px;
+    padding-bottom:5px;
+}
+.links {
+    display:none;
+}
+.scroller.channel-members {
+    background-color:rgba(100,0,100,.3);
+}
+.member.member:hover {
+    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,0)) !important;
+}
+.guilds-wrapper {
+    background-color:rgba(100,0,100,.2);
+}
