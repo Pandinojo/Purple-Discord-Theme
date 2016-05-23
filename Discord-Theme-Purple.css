@@ -1,10 +1,10 @@
 .messages-wrapper {
-    background-color:rgba(100,0,100,.1) !important;
+    background:-webkit-linear-gradient(top,rgba(100,0,100,.5),rgba(100,0,100,.1)) !important;
 }
 .channel-textarea {
     margin:0px;
     position:relative;
-    background-color:rgba(100,0,100,.3);
+    background-color:rgba(100,0,100,.2) !important;
 }
 .title-wrap {
     background-color:rgba(100,0,100,.3) !important;
@@ -12,11 +12,17 @@
 .guild-header header {
     background-color:rgb(100,50,125) !important;
 }
-.guild-channels ul .channel-text.selected {
-    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,0));
+.cahnnel-name:hover {
+    color:rgb(150,150,150);
 }
-.guild-channels ul .channel-text:hover {
-    background:rgba(100,0,100,.5);
+.channel-name {
+    color:rgb(200,200,200);
+}
+.channel-text.selected {
+    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,0)) !important;
+}
+.channel-text:hover {
+    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,0)) !important;
 }
 .scroller.guild-channels {
     background-color:rgba(100,0,100,.3);
@@ -26,11 +32,8 @@
     border:0px;
     padding-bottom:0px;
 }
-.btn-group {
-    background:rgb(10,10,10) !important;
-}
-.button.btn.btn-info {
-    background-color:red !important
+#voice-connection .btn-group {
+    background:rgb(100,0,100);
 }
 .account {
     background-color:rgba(100,0,100,.3) !important;
@@ -41,11 +44,41 @@
     display:none;
 }
 .scroller.channel-members {
-    background-color:rgba(100,0,100,.3);
+    background:-webkit-linear-gradient(top,rgba(100,0,100,.5),rgba(100,0,100,0)) !important;
 }
 .member.member:hover {
-    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,0)) !important;
+    background:-webkit-linear-gradient(left,rgba(100,0,100,1),rgba(100,0,100,.1)) !important;
 }
 .guilds-wrapper {
     background-color:rgba(100,0,100,.2);
+}
+.settings-header {
+    background-color:rgba(100,0,100,.9) !important;
+}
+.chat form {
+    margin: 0 0px;
+}
+.guild-inner {
+    background-color:rgba(100,0,100,.5) !important;
+}
+.guild-inner:hover {
+    background-color:rgba(100,0,100,.7) !important;
+}
+.search-bar {
+    background-color:rgb(100,50,125);
+}
+.private-channels .scroller {
+    background-color:rgba(75,0,75,.6)
+}
+.channel.btn-friends {
+    background:-webkit-linear-gradient(left, rgba(100,0,100,1),rgba(100,0,100,.0));
+}
+.channel.btn-friends:hover {
+    background:-webkit-linear-gradient(left, rgba(100,0,100,1),rgba(100,0,100,.0));
+}
+.channel.selected.private {
+    background:-webkit-linear-gradient(left, rgba(100,0,100,1),rgba(100,0,100,.0));
+}
+.channel.private:hover {
+    background:-webkit-linear-gradient(left, rgba(100,0,100,1),rgba(100,0,100,.0));
 }
